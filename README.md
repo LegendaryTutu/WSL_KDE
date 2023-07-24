@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/WSL-GUI-green) ![](https://img.shields.io/badge/Cygwin-XWin-orange) ![](https://img.shields.io/github/watchers/nufeng1999/WSL_GNOME) <img alt="ViewCount" src="https://views.whatilearened.today/views/github/nufeng1999/WSL_GNOME.svg">
 # WSL_GNOME  
-# Windows & Linux GUI Mix WSL GNOME Desktop  
-Use Cygwin's xwin to run WSL GNOME Desktop  
+# Windows & Linux GUI Mix WSL KDE Desktop  
+Use Cygwin's xwin to run WSL KDE Desktop  
 
 ISwitch.exe --- Contrl app window maxsize,Resolving windows and WSL gui app input method conflicts  
 
@@ -43,11 +43,11 @@ mkdir /opt/WSL
 
 cd /opt/WSL  
 
-git clone https://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
+git clone https://github.com/LegendaryTutu/WSL_KDE.git --recurse-submodules
 
 or  
 
-git clone git://github.com/nufeng1999/WSL_GNOME.git --recurse-submodules
+git clone git://github.com/LegendaryTutu/WSL_KDE.git --recurse-submodules
 
 cd WSL_GNOME/cygwin-auto-install    
 git checkout master  
@@ -80,31 +80,10 @@ wsl -u root -d Ubuntu
 ~~wsl2-systemd~~  
 ~~gnome-session &~~   
 
-startgnome2  
+startplasma   
 // other user execute gnome  
 . setguienv  
-startgnome2  
+startplasma 
 
 ***
-If you feel that these contents are helpful to you, you can make friendly sponsorship to developers.You may get more help after sponsorship
 
-如果你感觉这些内容对你有所帮助，可以向开发者进行友情赞助。赞助后你将可能获得更多帮助。  
-
-<img src="https://nufeng1999.github.io/imgs/kszz.jpg"/>  
-
-<img src="https://nufeng1999.github.io/imgs/pddzz.jpg"/>  
-
-<img src="https://nufeng1999.github.io/imgs/ttzz.jpg"/>  
-
-<img src="https://nufeng1999.github.io/imgs/wxzf.png"/>
-WeChat Pay（微信方式赞助）
-  
-<img src="https://nufeng1999.github.io/imgs/zfbzf.png"/>
-Alipay（支付宝方式赞助）  
-    
-技术支持赞助群名称：  
-WSL_XWin_Cygwin  
-群   号：  
-1014866104  
-<img src="https://nufeng1999.github.io/imgs/img/WSL_XWin_Cygwin.png"/>  
-QQ技术支持赞助群
